@@ -1,0 +1,32 @@
+SAINT JOSEPH COLLEGE SIS - UPDATE SUMMARY
+
+1. STUDENT ARCHIVE
+   - Delete from active Students now moves the record into backend/archived_students.json.
+   - Use Archived Students in the sidebar to review archived records.
+   - Restore returns a record to active Students.
+   - Restore is blocked if another active student already uses the same Student ID or email.
+   - Delete Permanently is available only from the archive and requires confirmation.
+
+2. LANDSCAPE EVENTS
+   - Event artwork displays in a 16:9 landscape aspect ratio.
+   - Event cards use a responsive 3-column / 2-column / 1-column layout.
+
+3. EXPANDED COURSE CATALOG
+   - Updated centralized course options for CICS, CCJE, CAS, CBM, and CTE.
+   - Existing student course values remain selectable when editing legacy records.
+   - IMPORTANT: Some added options are common examples and must be confirmed against the school's official registrar-approved course list.
+
+BACKEND ENDPOINTS
+   GET    /api/students/archive
+   DELETE /api/students/:id              (moves record to archive)
+   POST   /api/students/:id/restore
+   DELETE /api/students/archive/:id      (permanent deletion)
+
+Run backend and frontend using the commands in README.txt.
+
+
+LATEST UI REVISION
+- Removed the Delete event control from the event feed; events no longer show a delete action in the interface.
+- Event cards use a responsive three-column desktop grid, two-column tablet grid, and one-column mobile grid.
+- Event images retain a 16:9 landscape ratio; long titles/descriptions are clamped so cards stay compact and fit the available screen width.
+- Removed BS Hospitality Management from the CBM course dropdown. Other CBM courses remain available.

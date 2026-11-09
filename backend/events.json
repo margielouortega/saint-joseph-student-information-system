@@ -1,0 +1,88 @@
+[
+  {
+    "id": "cas-intramurals-dance-duo-2026-1",
+    "program": "CAS",
+    "title": "Dance Duo Competition — Champions!",
+    "description": "A well-deserved championship for the CAS team! Congratulations to Trisha Ruth Bueno and Alexis John Corsino for winning the Dance Duo Competition during Intramurals 2026. Your energy, teamwork, and dedication made the College of Arts and Sciences proud. Photo credits: The Josephian Messenger.",
+    "eventDate": "Intramurals 2026 — exact date not provided",
+    "image": "/uploads/cas-dance-duo-champions-2026-1.jpg",
+    "createdAt": "2026-10-25T12:00:00.000Z"
+  },
+  {
+    "id": "cas-intramurals-dance-duo-2026-2",
+    "program": "CAS",
+    "title": "Dance Duo Champions — Intramurals 2026",
+    "description": "Celebrating Trisha Ruth Bueno and Alexis John Corsino, champions of the CAS Dance Duo Competition. Photo credits: The Josephian Messenger.",
+    "eventDate": "Intramurals 2026 — exact date not provided",
+    "image": "/uploads/cas-dance-duo-champions-2026-2.jpg",
+    "createdAt": "2026-10-25T12:01:00.000Z"
+  },
+  {
+    "id": "cas-digital-poster-champion-asean-month-2026",
+    "program": "CAS",
+    "title": "Digital Poster Making Contest — Champion",
+    "description": "Congratulations to Shanaialyne Ballena, a BS Psychology student, for representing the College of Arts and Sciences and winning the Digital Poster Making Contest during ASEAN Month Activities 2026. Theme: “Navigating Our Future Together.” Photo credits: The Josephian Messenger.",
+    "eventDate": "ASEAN Month 2026 — exact date not provided",
+    "image": "/uploads/cas-digital-poster-champion-asean-2026.jpg",
+    "createdAt": "2026-10-25T12:07:00.000Z"
+  },
+  {
+    "id": "ccje-coqc-pinning-ranks-2025-2026",
+    "program": "CCJE",
+    "title": "Pinning of Ranks — Cadet Officers Qualifying Course",
+    "description": "The 1st Class and 2nd Class cadets of Saint Joseph’s College of Baggao participated in the Pinning of Ranks, symbolizing their readiness for greater responsibilities, discipline, leadership, and service.",
+    "eventDate": "School Year 2025–2026 — exact date not provided",
+    "location": "Cagayan State University–Carig Campus",
+    "image": "/uploads/ccje-coqc-pinning-ranks-2025-2026-1.jpg",
+    "images": [
+      "/uploads/ccje-coqc-pinning-ranks-2025-2026-1.jpg",
+      "/uploads/ccje-coqc-closing-ceremony-2025-2026-2.jpg"
+    ],
+    "createdAt": "2026-10-25T12:10:00.000Z"
+  },
+  {
+    "id": "ccje-coqc-closing-ceremony-2025-2026",
+    "program": "CCJE",
+    "title": "Closing Ceremony — Cadet Officers Qualifying Course",
+    "description": "Saint Joseph’s College of Baggao cadets who completed the Cadet Officers Qualifying Course joined the Closing Ceremony at Cagayan State University–Carig Campus, celebrating their hard work, discipline, and commitment to leadership and service.",
+    "eventDate": "School Year 2025–2026 — exact date not provided",
+    "location": "Cagayan State University–Carig Campus",
+    "image": "/uploads/ccje-coqc-closing-ceremony-2025-2026-2.jpg",
+    "images": [
+      "/uploads/ccje-coqc-closing-ceremony-2025-2026-2.jpg",
+      "/uploads/ccje-coqc-pinning-ranks-2025-2026-1.jpg"
+    ],
+    "createdAt": "2026-10-25T12:10:30.000Z"
+  },
+  {
+    "id": "cbm-season-of-creation-garden-preparation-2026",
+    "program": "CBM",
+    "title": "BSBA and BSTM Students Prepare for the Season of Creation",
+    "description": "BSBA and BSTM students from the College of Business and Management worked together to prepare the departmental garden for the upcoming Season of Creation. The activity included preparing garden plots and soil, promoting environmental care, teamwork, unity, and responsibility. The garden project is a work in progress.",
+    "eventDate": "Upcoming Season of Creation — exact date not provided",
+    "location": "Saint Joseph’s College of Baggao — CBM departmental garden",
+    "image": "/uploads/cbm-season-of-creation-garden-preparation.jpg",
+    "images": [
+      "/uploads/cbm-season-of-creation-garden-preparation.jpg"
+    ],
+    "createdAt": "2026-10-25T12:11:00.000Z"
+  },
+  {
+    "id": "cics-intramurals-dance-duo-1st-runner-up-2026",
+    "program": "CICS",
+    "title": "CICS Dance Duo — 1st Runner-Up",
+    "description": "CICS MADE IT HAPPEN! A huge congratulations to our incredible CICS Dance Duo for taking home the title of 1st Runner-Up! Their powerful moves, amazing chemistry, and confidence on stage brought the CICS spirit to life. Every step, every beat, and every performance showed their hard work and dedication. They danced with passion, performed with pride, and made the College of Information and Computing Sciences proud. Your talent. Your passion. Your moment. Photo credits: The Josephian Messenger.",
+    "eventDate": "Intramurals 2026 — exact date not provided",
+    "image": "/uploads/cics-dance-duo-1st-runner-up-2026.jpg",
+    "createdAt": "2026-10-25T12:13:00.000Z"
+  },
+  {
+    "id": "cte-days-2026-socialization-night-2026",
+    "program": "CTE",
+    "title": "College of Teacher Education (CTE) Day 2026 | Socialization Night",
+    "description": "College of Teacher Education (CTE) Day 2026 — Socialization Night. Theme: “PRISM OF POTENTIAL: Refracting Knowledge to Illuminate a Diverse World.”",
+    "eventDate": "January 29–31, 2026",
+    "image": "/uploads/cte-days-2026-socialization-night.jpg",
+    "createdAt": "2026-10-25T12:30:00.000Z"
+  }
+]
