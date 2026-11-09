@@ -34,6 +34,9 @@ const upload = multer({
     else cb(new Error("Upload an image file (JPG, PNG, WEBP, or GIF)."));
   }
 });
+app.get("/", (req, res) => {
+    res.send("Saint Joseph Student Information System API is running!");
+});
 app.get("/api/health", (_req, res) => res.json({ ok: true, message: "Student Information System API is running." }));
 app.get("/api/students", (_req, res) => res.json(readStudents()));
 app.post("/api/students", (req, res) => {
