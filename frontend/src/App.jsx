@@ -1,7 +1,10 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import "./App.css";
 
-const API_BASE = "https://saint-joseph-student-information-system-lr9v.onrender.com/api";
+const BACKEND_URL = "https://saint-joseph-student-information-system-lr9v.onrender.com";
+
+const API_BASE = `${BACKEND_URL}/api`;
+
 const API_URL = `${API_BASE}/students`;
 // Central course catalog. Confirm the final list with the registrar before treating it as official.
 const PROGRAMS = {
