@@ -204,7 +204,7 @@ function App() {
         </nav>
         <div className="sidebar-bottom">
           <div className={`connection-dot ${connected ? "online" : ""}`} />
-          <div><b>{connected ? "Backend connected" : "Backend offline"}</b><span>API • localhost:5000</span></div>
+          <div><b>{connected ? "Backend connected" : "Backend offline"}</b><span>API • Render Cloud Server</span></div>
         </div>
       </aside>
 
@@ -245,7 +245,7 @@ function App() {
             <div className="events-grid">
               {events.slice(0, 10).map(event => (
                 <article className="event-card" key={event.id}>
-                  <div className="event-image"><img src={event.image.startsWith("http") ? event.image : `http://localhost:5000${event.image}`} alt={`${event.program} event`} loading="lazy" /><span>{event.program}</span></div>
+                  <div className="event-image"><img src={event.image.startsWith("http") ? event.image : `https://saint-joseph-student-information-system-lr9v.onrender.com${event.image}`} alt={`${event.program} event`} loading="lazy" /><span>{event.program}</span></div>
                   <div className="event-info"><small>{event.eventDate || new Date(event.createdAt).toLocaleString()}</small><h3>{event.title}</h3><p>{event.description}</p><button onClick={() => { setSelectedProgram(event.program); setPage("Programs & Events"); }}>Open program <span>→</span></button></div>
                 </article>
               ))}
@@ -329,7 +329,7 @@ function App() {
             </div>
             <div className="section-heading events-heading"><div><span className="orange-kicker">LIVE EVENT FEED</span><h2>{selectedProgram} Events</h2><p>New posts refresh automatically about every 10 seconds.</p></div></div>
             <div className="events-grid">
-              {events.filter(ev => selectedProgram === "All" || ev.program === selectedProgram).map(ev => <article className="event-card" key={ev.id}><div className="event-image"><img src={ev.image.startsWith("http") ? ev.image : `http://localhost:5000${ev.image}`} alt={ev.title} /><span>{ev.program}</span></div><div className="event-info"><small>{ev.eventDate || new Date(ev.createdAt).toLocaleDateString()}</small><h3>{ev.title}</h3><p>{ev.description}</p></div></article>)}
+              {events.filter(ev => selectedProgram === "All" || ev.program === selectedProgram).map(ev => <article className="event-card" key={ev.id}><div className="event-image"><img src={ev.image.startsWith("http") ? ev.image : `https://saint-joseph-student-information-system-lr9v.onrender.com${ev.image}`} alt={ev.title} /><span>{ev.program}</span></div><div className="event-info"><small>{ev.eventDate || new Date(ev.createdAt).toLocaleDateString()}</small><h3>{ev.title}</h3><p>{ev.description}</p></div></article>)}
               {!events.some(ev => selectedProgram === "All" || ev.program === selectedProgram) && <div className="empty-state"><div>▣</div><h3>No events for {selectedProgram} yet</h3><p>Upload the first event above. It will appear here and on the dashboard.</p></div>}
             </div>
           </section>
